@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} - Fwk\Core Application</title>
+{% for asset in _helper.asset([
+    'site.css'
+], 'cssrewrite', 'site') %}
+    <link rel="stylesheet" href="{{ asset }}">
+{% endfor %}
+{% block headertag %}{% endblock %}      
+</head>
+<body>
+{% block contents %}{% endblock %}
+</body>
+</html>

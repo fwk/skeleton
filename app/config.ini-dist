@@ -1,0 +1,17 @@
+[fwk]
+requestMatcherService = requestMatcher
+resultTypeService = resultTypeService
+viewHelperService = viewHelper
+urlRewriterService = urlRewriter
+consoleService = consoleApp
+sessionService = session
+
+[services]
+twig.templates.dir = :packageDir/DbAdmin/templates
+assetic.assets.directory = :packageDir/DbAdmin/templates/assets
+assetic.debug = false
+assetic.action.name = Asset
+assetic.use.cache = true
+assetic.cache.directory = :packageDir/../cache
+; could be content or modification 
+assetic.cache.strategy = content

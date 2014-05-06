@@ -1,0 +1,29 @@
+{
+    "name": "fwk/skeleton",
+    "description": "Fwk Skeleton Application",
+    "license": "bsd",
+    "authors": [
+        {
+            "name": "neiluJ",
+            "email": "julien@nitronet.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "fwk/core": "dev-master",
+        "symfony/console": "dev-master",
+        "fwk/form": "dev-master",
+        "monolog/monolog": "dev-master",
+        "nitronet/fwk-twig": "dev-master",
+        "nitronet/fwk-assetic": "dev-master"
+    },
+    "require-dev": {
+        "filp/whoops": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "app"
+        }
+    }
+}
