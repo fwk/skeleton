@@ -3,7 +3,7 @@
 This is a skeleton Application for [Fwk\Core](https://github.com/fwk/Core).
 Install it using [Composer](http://getcomposer.org) to get started:
 ``` sh
-$ php composer.phar create-project fwk/skeleton path/to/install --prefer-dist --dev -o
+$ php composer.phar create-project fwk/skeleton path/to/install --prefer-dist --dev dev-master
 ``` 
 
 Now cd to path/to/install and edit the configuration file:
@@ -30,4 +30,4 @@ You can also change this directory path in ```./app/config.ini```.
 
 ## Hack on
 
-Now point your browser to your http server: http://localhost/~username/webapp/public/index.php/ and you're set! Happy development :)
+Now point your browser to your http server: ```http://localhost/~username/webapp/public/index.php/``` and you're set! Happy development :)

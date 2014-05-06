@@ -7,8 +7,10 @@ consoleService = consoleApp
 sessionService = session
 
 [services]
-twig.templates.dir = :packageDir/DbAdmin/templates
-assetic.assets.directory = :packageDir/DbAdmin/templates/assets
+twig.debug = true
+twig.cache.directory = :packageDir/../cache
+twig.templates.dir = :packageDir/App/templates
+assetic.assets.directory = :packageDir/App/templates/assets
 assetic.debug = false
 assetic.action.name = Asset
 assetic.use.cache = true
